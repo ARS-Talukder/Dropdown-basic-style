@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(mac.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.wrapper{
+    margin-top: 2%;
+    width: 100%;
+}
+.wrapper ul{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    
+}
+.wrapper ul li{
+    list-style: none;
+    height: 30px;
+    width: 105px;
+    background-color: rgb(245, 154, 17);
+    border: 1px solid black;
+    text-align: center;
+    font-size: 23px;
+    margin:0 30px;
+    
+    
+    
+
+    
+}
+.wrapper ul li:hover{
+    background-color: cadetblue;
+}
+.wrapper ul li a{
+    text-decoration: none;
+    color: rgb(36, 34, 34);
+}
+.wrapper ul li ul{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.wrapper ul li ul{
+    margin-top: 6px;
+    position: relative;
+    right: 16px;
+    display: none;
+}
+.wrapper ul li:hover ul{
+    display: block;
+}
+.wrapper ul li ul li{
+    font-size: 16px;
+    height: 35px;
+    margin: 1px 0;
+
+}
+.inner{
+    position: relative;
+    left: 100px;
+    bottom: 25px;
+    display: none;
+}
+/* .wrapper ul li ul li:hover ul{
+    display: block;
+} */
